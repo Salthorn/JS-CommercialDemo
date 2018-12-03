@@ -12,6 +12,17 @@ nav, footer {
   border: 1px solid gray;
   min-height: 5em;
 }
+/* Header Image */
+.header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: grey;
+}
+/* Date */
+.date {
+  vertical-align: middle;
+}
 
 /* Custom classes */
 .home-body {

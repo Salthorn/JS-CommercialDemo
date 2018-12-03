@@ -13,3 +13,8 @@ function myFunction() {
         x.className = "topnav";
     }
 }
+function date() {
+  var d = new Date();
+  console.log(d);
+}
+date();
