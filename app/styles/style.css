@@ -11,12 +11,18 @@ nav, footer {
   width: 100%;
   border: 1px solid gray;
   min-height: 5em;
+  background-color: #333;
+  text-align:center;
+  color:white;
+}
+nav a:link,nav a:visited{
+  color:green;
 }
 /* Header Image */
-.header img {
+.logo{
   float: left;
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height:90px;
   background: grey;
 }
 /* Date */
