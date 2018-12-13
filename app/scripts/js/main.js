@@ -13,8 +13,6 @@ function myFunction() {
         x.className = "topnav";
     }
 }
-function date() {
-  var d = new Date();
-  console.log(d);
+function displayDate() {
+  getElementById("Time").innerHTML = Date();
 }
-date();

@@ -16,7 +16,7 @@
 
   </head>
   <body>
-    <header>
+    <div class="header">
       <img class="logo" src="Logo.png"/>
       <nav>
         <div class="topnav" id="myTopnav">
@@ -34,8 +34,14 @@
         </div>
         <a href="#about">Basket</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        <div class="Date">
+          <p id="date"></p>
+          <script>
+var d = new Date();
+document.getElementById("date").innerHTML = d;
+          </script>
       </nav>
-    </header>
+    </div>
  <!--
  <div class="header">
       <img src="Logo.png" />

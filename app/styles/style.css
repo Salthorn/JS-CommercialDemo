@@ -155,3 +155,7 @@ nav a:link,nav a:visited{
     text-align: left;
   }
 }
+.Date {
+  float:right;
+  color:white;
+}
